@@ -5,4 +5,7 @@ services:
     image: go-land/user-service:1.0.0
     ports:
       - "7070:7070"
+    environment:
+      PORT: "7070"
+      PROFILE: "dev"
     mem_limit: 128m
